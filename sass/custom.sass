@@ -1,0 +1,310 @@
+@import "icons/*.png"
+
+/*Fonts
+
+@font-face
+  font-family: 'RobotoLight'
+  src: url('../fonts/Roboto-Light-webfont.eot')
+  src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/Roboto-Light-webfont.woff') format("woff"), url('../fonts/Roboto-Light-webfont.ttf') format("truetype"), url('../fonts/Roboto-Light-webfont.svg#RobotoLight') format("svg")
+  font-weight: normal
+  font-style: normal
+
+.borderRadius8
+  -webkit-border-radius: 8px
+  -moz-border-radius: 8px
+  border-radius: 8px
+
+
+a img
+  max-width: 100%
+  height: auto
+  border: 0
+  -ms-interpolation-mode: bicubic
+
+body
+  background: url(../images/bodyBg.jpg) repeat 0 0
+  font-size: 12px
+
+small, p small
+  font-size: 10px
+  color: #bbbbbb
+
+a
+  color: #444444
+  &:hover
+    color: #444444
+
+p
+  font-size: 12px
+
+.marginAuto
+  margin: auto
+
+.logo
+  width: 285px
+  height: 38px
+  margin: 15px auto 0
+  h1
+    background: url(../images/techBlockLogo.png) no-repeat 0 0
+    line-height: 38px
+    a
+      display: block
+      text-indent: -9999px
+      width: 285px
+      height: 38px
+
+.separator
+  margin: 14px 0
+  .DottedLine
+    background: url(../images/dottedBorder.jpg) repeat-x 0 0
+    height: 1px
+    margin-bottom: 3px
+  .BottomShadow
+    background: url(../images/BottomShadow.png) no-repeat center top
+    height: 14px
+
+.runningFont
+  font: normal 18px / 20px "Bad Script", cursive
+  color: #dd2222
+  text-align: center
+
+/*ul.blocks {
+ *	margin: 16px auto 0;
+ *}
+ *ul.blocks li {
+ *	text-align: center;
+ *	width: 18%;
+ *	margin-right: 2%;
+ *	float: left;
+ *	display: block;
+ *}
+ *ul.blocks li img {
+ *	max-width: 100%;
+ *}
+ *ul.blocks li a {
+ *	color: #222222;
+ *	font-size: 11px;
+ *	line-height:14px;
+ *	text-transform: uppercase;
+ *	text-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
+ *}
+ *ul.blocks li a:hover {
+ *	text-decoration: none;
+ *	opacity:0.8;
+ *}
+
+.blocks
+  margin-top: 16px
+  width: 780px
+  .imgHolder
+    min-height: 66px
+  .span2
+    text-align: center
+    display: block
+    a
+      color: #222222
+      font-size: 11px
+      line-height: 14px
+      text-transform: uppercase
+      text-shadow: 0 0 1px rgba(0, 0, 0, 0.2)
+      &:hover
+        text-decoration: none
+
+.slideshow
+  height: 227px
+  margin: 60px 0 28px 0
+  text-align: center
+
+/* rotator in-page placement
+
+div
+  &.slideshow
+    position: relative
+    height: 227px
+    margin: 60px 0 28px 180px
+    text-align: center
+    ul
+      margin: 0
+      li
+        width: 582px
+        list-style: none
+
+/* rotator css
+
+/* rotator image style
+
+.robotoLight
+  color: #bbbbbb
+  font: normal 28px / 30px "RobotoLight"
+
+.title
+  color: #444444
+  line-height: 24px
+  margin: 6px 0 14px 0
+
+.twitterIcon
+  margin: 14px 20px 0 0
+  float: left
+
+.msgWrapper
+  min-height: 170px
+  border: 1px solid #dddddd
+  background: #ffffff
+  padding: 20px
+  position: relative
+  float: left
+  color: #888888
+
+.markIcon
+  z-index: 1
+  position: absolute
+  background: url(../images/markIcon.png) no-repeat 0 0
+  width: 11px
+  height: 10px
+  top: 26px
+  left: -11px
+
+.msgWrapper
+  img
+    display: block
+    max-height: 40px
+    min-height: 40px
+  h4
+    color: #222222
+    float: left
+    margin-right: 4px
+  .at
+    float: left
+    margin-right: 4px
+  small
+    float: right
+
+.DottedLine
+  background: url(../images/dottedBorder.jpg) repeat-x bottom left
+  height: 1px
+  margin: 6px 0 14px
+
+.fromBlog
+  h3
+    margin: 6px 0 8px
+  p
+    color: #888888
+    small
+      display: block
+
+footer
+  background: url(../images/dottedBorder.jpg) repeat-x 0 0
+  margin: 50px 0 20px
+  height: 20px
+  padding: 24px 0 0
+  color: #bbbbbb
+  span
+    float: left
+  .techBlocksIcon
+    float: right
+    background: url(../images/techBlockIcon.png) no-repeat 0 0
+    height: 22px
+    width: 22px
+  a
+    color: #bbbbbb
+    margin-left: 8px
+    &:hover
+      color: #bbbbbb
+
+.sideIconsWrapper
+  position: fixed
+  right: 0
+  top: 70px
+  width: 160px
+
+.sideIcons
+  @include icons-sprite("sideIcons")
+  height: 362px
+  width: 63px
+  float: right
+
+.navIcons
+  margin-top: 55px
+  a
+    display: block
+    width: 63px
+    height: 60px
+    margin-bottom: 5px
+    &:hover
+      opacity: 0.8
+
+.msgBox
+  width: 114px
+  float: left
+  margin-top: -32px
+
+.topArrow
+  @include icons-sprite("topArrow")
+  height: 22px
+  width: 27px
+  margin-left: 70px
+
+.msgBox .runningFont
+  color: #666666
+
+.width220
+  width: 220px
+
+.width360
+  width: 360px
+
+.width248
+  width: 248px
+
+.width440
+  width: 440px
+
+.bottomBlocks
+  .span3
+    width: 220px
+  .span5
+    width: 460px
+
+.msgWrapper
+  width: 318px
+  .span1
+    width: 40px
+  .span2
+    width: 258px
+
+/*--------------------Responsive CSS-------------------
+
+@media (max-width: 480px)
+
+@media (max-width: 767px)
+
+@media (min-width: 768px) and (max-width: 979px)
+  .bottomBlocks
+    .span3
+      width: 144px
+    .span5
+      width: 384px
+  .msgWrapper
+    width: 242px
+    .span1
+      width: 40px
+    .span2
+      width: 182px
+  /*Nav Blocks
+  .blocks
+    width: 600px
+
+@media (min-width: 980px)
+  .bottomBlocks
+    .span3
+      width: 220px
+    .span5
+      width: 460px
+  .msgWrapper
+    width: 318px
+    .span1
+      width: 40px
+    .span2
+      width: 258px
+
+@media (min-width: 1200px)

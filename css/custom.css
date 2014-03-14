@@ -1,0 +1,439 @@
+/* line 50, icons/*.png */
+.icons-sprite, .sideIcons, .topArrow {
+  background: url('../images/icons-s9ab057a43b.png') no-repeat;
+}
+
+/*Fonts */
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/Roboto-Light-webfont.eot");
+  src: url("../fonts/Roboto-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light-webfont.woff") format("woff"), url("../fonts/Roboto-Light-webfont.ttf") format("truetype"), url("../fonts/Roboto-Light-webfont.svg#RobotoLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../sass/custom.sass */
+.borderRadius8 {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* line 18, ../sass/custom.sass */
+a img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 24, ../sass/custom.sass */
+body {
+  background: url(../images/bodyBg.jpg) repeat 0 0;
+  font-size: 12px;
+}
+
+/* line 28, ../sass/custom.sass */
+small, p small {
+  font-size: 10px;
+  color: #bbbbbb;
+}
+
+/* line 32, ../sass/custom.sass */
+a {
+  color: #444444;
+}
+/* line 34, ../sass/custom.sass */
+a:hover {
+  color: #444444;
+}
+
+/* line 37, ../sass/custom.sass */
+p {
+  font-size: 12px;
+}
+
+/* line 40, ../sass/custom.sass */
+.marginAuto {
+  margin: auto;
+}
+
+/* line 43, ../sass/custom.sass */
+.logo {
+  width: 285px;
+  height: 38px;
+  margin: 15px auto 0;
+}
+/* line 47, ../sass/custom.sass */
+.logo h1 {
+  background: url(../images/techBlockLogo.png) no-repeat 0 0;
+  line-height: 38px;
+}
+/* line 50, ../sass/custom.sass */
+.logo h1 a {
+  display: block;
+  text-indent: -9999px;
+  width: 285px;
+  height: 38px;
+}
+
+/* line 56, ../sass/custom.sass */
+.separator {
+  margin: 14px 0;
+}
+/* line 58, ../sass/custom.sass */
+.separator .DottedLine {
+  background: url(../images/dottedBorder.jpg) repeat-x 0 0;
+  height: 1px;
+  margin-bottom: 3px;
+}
+/* line 62, ../sass/custom.sass */
+.separator .BottomShadow {
+  background: url(../images/BottomShadow.png) no-repeat center top;
+  height: 14px;
+}
+
+/* line 66, ../sass/custom.sass */
+.runningFont {
+  font: normal 18px/20px "Bad Script", cursive;
+  color: #dd2222;
+  text-align: center;
+}
+
+/*ul.blocks {
+ *	margin: 16px auto 0;
+ *}
+ *ul.blocks li {
+ *	text-align: center;
+ *	width: 18%;
+ *	margin-right: 2%;
+ *	float: left;
+ *	display: block;
+ *}
+ *ul.blocks li img {
+ *	max-width: 100%;
+ *}
+ *ul.blocks li a {
+ *	color: #222222;
+ *	font-size: 11px;
+ *	line-height:14px;
+ *	text-transform: uppercase;
+ *	text-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
+ *}
+ *ul.blocks li a:hover {
+ *	text-decoration: none;
+ *	opacity:0.8;
+ *} */
+/* line 96, ../sass/custom.sass */
+.blocks {
+  margin-top: 16px;
+  width: 780px;
+}
+/* line 99, ../sass/custom.sass */
+.blocks .imgHolder {
+  min-height: 66px;
+}
+/* line 101, ../sass/custom.sass */
+.blocks .span2 {
+  text-align: center;
+  display: block;
+}
+/* line 104, ../sass/custom.sass */
+.blocks .span2 a {
+  color: #222222;
+  font-size: 11px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+/* line 110, ../sass/custom.sass */
+.blocks .span2 a:hover {
+  text-decoration: none;
+}
+
+/* line 113, ../sass/custom.sass */
+.slideshow {
+  height: 227px;
+  margin: 60px 0 28px 0;
+  text-align: center;
+}
+
+/* rotator in-page placement */
+/* line 121, ../sass/custom.sass */
+div.slideshow {
+  position: relative;
+  height: 227px;
+  margin: 60px 0 28px 180px;
+  text-align: center;
+}
+/* line 126, ../sass/custom.sass */
+div.slideshow ul {
+  margin: 0;
+}
+/* line 128, ../sass/custom.sass */
+div.slideshow ul li {
+  width: 582px;
+  list-style: none;
+}
+
+/* rotator css */
+/* rotator image style */
+/* line 136, ../sass/custom.sass */
+.robotoLight {
+  color: #bbbbbb;
+  font: normal 28px/30px "RobotoLight";
+}
+
+/* line 140, ../sass/custom.sass */
+.title {
+  color: #444444;
+  line-height: 24px;
+  margin: 6px 0 14px 0;
+}
+
+/* line 145, ../sass/custom.sass */
+.twitterIcon {
+  margin: 14px 20px 0 0;
+  float: left;
+}
+
+/* line 149, ../sass/custom.sass */
+.msgWrapper {
+  min-height: 170px;
+  border: 1px solid #dddddd;
+  background: white;
+  padding: 20px;
+  position: relative;
+  float: left;
+  color: #888888;
+}
+
+/* line 158, ../sass/custom.sass */
+.markIcon {
+  z-index: 1;
+  position: absolute;
+  background: url(../images/markIcon.png) no-repeat 0 0;
+  width: 11px;
+  height: 10px;
+  top: 26px;
+  left: -11px;
+}
+
+/* line 168, ../sass/custom.sass */
+.msgWrapper img {
+  display: block;
+  max-height: 40px;
+  min-height: 40px;
+}
+/* line 172, ../sass/custom.sass */
+.msgWrapper h4 {
+  color: #222222;
+  float: left;
+  margin-right: 4px;
+}
+/* line 176, ../sass/custom.sass */
+.msgWrapper .at {
+  float: left;
+  margin-right: 4px;
+}
+/* line 179, ../sass/custom.sass */
+.msgWrapper small {
+  float: right;
+}
+
+/* line 182, ../sass/custom.sass */
+.DottedLine {
+  background: url(../images/dottedBorder.jpg) repeat-x bottom left;
+  height: 1px;
+  margin: 6px 0 14px;
+}
+
+/* line 188, ../sass/custom.sass */
+.fromBlog h3 {
+  margin: 6px 0 8px;
+}
+/* line 190, ../sass/custom.sass */
+.fromBlog p {
+  color: #888888;
+}
+/* line 192, ../sass/custom.sass */
+.fromBlog p small {
+  display: block;
+}
+
+/* line 195, ../sass/custom.sass */
+footer {
+  background: url(../images/dottedBorder.jpg) repeat-x 0 0;
+  margin: 50px 0 20px;
+  height: 20px;
+  padding: 24px 0 0;
+  color: #bbbbbb;
+}
+/* line 201, ../sass/custom.sass */
+footer span {
+  float: left;
+}
+/* line 203, ../sass/custom.sass */
+footer .techBlocksIcon {
+  float: right;
+  background: url(../images/techBlockIcon.png) no-repeat 0 0;
+  height: 22px;
+  width: 22px;
+}
+/* line 208, ../sass/custom.sass */
+footer a {
+  color: #bbbbbb;
+  margin-left: 8px;
+}
+/* line 211, ../sass/custom.sass */
+footer a:hover {
+  color: #bbbbbb;
+}
+
+/* line 214, ../sass/custom.sass */
+.sideIconsWrapper {
+  position: fixed;
+  right: 0;
+  top: 70px;
+  width: 160px;
+}
+
+/* line 220, ../sass/custom.sass */
+.sideIcons {
+  background-position: 0 0;
+  height: 362px;
+  width: 63px;
+  float: right;
+}
+
+/* line 226, ../sass/custom.sass */
+.navIcons {
+  margin-top: 55px;
+}
+/* line 228, ../sass/custom.sass */
+.navIcons a {
+  display: block;
+  width: 63px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+/* line 233, ../sass/custom.sass */
+.navIcons a:hover {
+  opacity: 0.8;
+}
+
+/* line 236, ../sass/custom.sass */
+.msgBox {
+  width: 114px;
+  float: left;
+  margin-top: -32px;
+}
+
+/* line 241, ../sass/custom.sass */
+.topArrow {
+  background-position: 0 -362px;
+  height: 22px;
+  width: 27px;
+  margin-left: 70px;
+}
+
+/* line 247, ../sass/custom.sass */
+.msgBox .runningFont {
+  color: #666666;
+}
+
+/* line 250, ../sass/custom.sass */
+.width220 {
+  width: 220px;
+}
+
+/* line 253, ../sass/custom.sass */
+.width360 {
+  width: 360px;
+}
+
+/* line 256, ../sass/custom.sass */
+.width248 {
+  width: 248px;
+}
+
+/* line 259, ../sass/custom.sass */
+.width440 {
+  width: 440px;
+}
+
+/* line 263, ../sass/custom.sass */
+.bottomBlocks .span3 {
+  width: 220px;
+}
+/* line 265, ../sass/custom.sass */
+.bottomBlocks .span5 {
+  width: 460px;
+}
+
+/* line 268, ../sass/custom.sass */
+.msgWrapper {
+  width: 318px;
+}
+/* line 270, ../sass/custom.sass */
+.msgWrapper .span1 {
+  width: 40px;
+}
+/* line 272, ../sass/custom.sass */
+.msgWrapper .span2 {
+  width: 258px;
+}
+
+/*--------------------Responsive CSS------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 283, ../sass/custom.sass */
+  .bottomBlocks .span3 {
+    width: 144px;
+  }
+  /* line 285, ../sass/custom.sass */
+  .bottomBlocks .span5 {
+    width: 384px;
+  }
+
+  /* line 287, ../sass/custom.sass */
+  .msgWrapper {
+    width: 242px;
+  }
+  /* line 289, ../sass/custom.sass */
+  .msgWrapper .span1 {
+    width: 40px;
+  }
+  /* line 291, ../sass/custom.sass */
+  .msgWrapper .span2 {
+    width: 182px;
+  }
+
+  /*Nav Blocks */
+  /* line 294, ../sass/custom.sass */
+  .blocks {
+    width: 600px;
+  }
+}
+@media (min-width: 980px) {
+  /* line 299, ../sass/custom.sass */
+  .bottomBlocks .span3 {
+    width: 220px;
+  }
+  /* line 301, ../sass/custom.sass */
+  .bottomBlocks .span5 {
+    width: 460px;
+  }
+
+  /* line 303, ../sass/custom.sass */
+  .msgWrapper {
+    width: 318px;
+  }
+  /* line 305, ../sass/custom.sass */
+  .msgWrapper .span1 {
+    width: 40px;
+  }
+  /* line 307, ../sass/custom.sass */
+  .msgWrapper .span2 {
+    width: 258px;
+  }
+}
